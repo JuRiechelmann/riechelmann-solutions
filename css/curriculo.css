@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    background-image: url("../img/corporativo.png");
+}
+
+
+h1{
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+}
+
+h2{
+    color: aliceblue;
+}
+
+h3{
+    color: aliceblue;
+}
+
+/* Caixa principal do formulário */
+.formulario {
+    display: flex; /* ativa o flexbox para facilitar alinhamento */
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center; /* centraliza verticalmente */
+    flex-direction: column; /* coloca os elementos um embaixo do outro */
+}
+
+/* Formulário interno */
+.formulario form {
+    display: flex; /* ativa flexbox dentro do form */
+    flex-direction: column; /* faz inputs ficarem em coluna */
+    align-items: center; /* centraliza todos os campos */
+    gap: 18px; /* cria espaço entre cada input e botão */
+}
+
+/* Estilo geral para inputs e botão */
+.formulario input,
+.formulario button {
+    width: 350px; /* largura igual para todos */
+    padding: 14px; /* espaço interno para o texto não ficar colado */
+    border-radius: 10px; /* deixa cantos arredondados */
+    border: none; /* remove borda padrão */
+    font-size: 16px; /* tamanho da fonte */
+}
+
+/* Estilização específica do input de arquivo */
+input[type="file"] {
+    width: 350px; /* mesma largura dos outros campos */
+    color: white; /* cor do texto */
+}
+
+/* Estilo do botão enviar */
+.formulario button {
+    background-color: #0ea5e9; /* azul principal */
+    color: white; /* texto branco */
+    cursor: pointer; /* muda cursor para mãozinha */
+    transition: 0.3s; /* animação suave ao passar mouse */
+}
+
+/* Efeito ao passar o mouse no botão */
+.formulario button:hover {
+    background-color: #0284c7; /* azul mais escuro no hover */
+}
+
+

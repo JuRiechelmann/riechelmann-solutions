@@ -1,0 +1,31 @@
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/imagemdaempresa.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(48, 141, 222);
+}
+
+p{
+   color: aliceblue;
+}
+
+h2{
+    text-align: center;
+    color: rgb(48, 141, 222);
+}
+
+li{
+    color: aliceblue;
+}
