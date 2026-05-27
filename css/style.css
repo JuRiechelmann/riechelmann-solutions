@@ -7,7 +7,7 @@ body{
     min-height: 100vh;
 
     /* Define a imagem de fundo */
-    background-image: url("/img/home3.png");
+    background-image: url("../img/home3.png");
 
     /* Faz a imagem cobrir toda a tela */
     background-size: cover;
