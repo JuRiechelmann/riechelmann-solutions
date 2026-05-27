@@ -1,64 +1,158 @@
+/* Define a imagem de fundo da página */
 body{
-    background-image: url(https://wallpapers.com/images/featured/fundo-azul-e-branco-2du4cmkco1yvjtzr.jpg);
-     background-size: cover;
+      /* Remove a margem padrão do navegador */
+    margin: 0;
+
+    /* Faz o body ocupar no mínimo toda a altura da tela */
+    min-height: 100vh;
+
+    /* Define a imagem de fundo */
+    background-image: url("/img/home3.png");
+
+    /* Faz a imagem cobrir toda a tela */
+    background-size: cover;
+
+    /* Mantém a imagem centralizada */
     background-position: center;
+
+    /* Impede que a imagem fique repetindo */
     background-repeat: no-repeat;
+
+    /* Mantém o fundo fixo na tela */
+    background-attachment: fixed;
 }
 
 
+/* Estilização do título principal */
 h1{
+
+    /* Centraliza o texto */
     text-align: center;
-    color: rgb(33, 6, 78);
+
+    /* Cor da letra */
+    color: rgb(221, 221, 224);
 }
 
 
+/* Caixa principal de conteúdo */
 .box {
-    background-color: #3e5a85;
-    border: 1px solid #2d6f8f;
+
+    /* Cor de fundo com transparência */
+    background-color: rgba(62, 90, 133, 0.55);
+
+    /* Borda da caixa */
+    border: 1px solid #3e5a85;
+
+    /* Arredonda os cantos */
     border-radius: 18px;
+
+    /* Espaçamento interno */
     padding: 35px;
+
+    /* Sombra da caixa */
     box-shadow: 0 0 25px rgba(0, 174, 255, 0.15);
+
+    /* Largura máxima da caixa */
     max-width: 900px;
+
+    /* Centraliza a caixa na página */
     margin: 40px auto;
+
+    /* Cor do texto */
     color: #d1d5db;
+
+    /* Tamanho da fonte */
     font-size: 20px;
+
+    /* Espaçamento entre linhas */
     line-height: 1.6;
 }
 
+
+/* Estilização dos subtítulos */
 h2{
+
+    /* Centraliza o texto */
     text-align: center;
-    color: rgb(33, 6, 78);
+
+    /* Cor da letra */
+    color: #e9eaec;
 }
 
 
+/* Caixa da área de clientes */
 .boxcliente {
+
+    /* Cor de fundo branca */
     background-color: #ffffff;
-    border: 1px solid #2d6f8f;
+
+    /* Borda */
+    border: 1px solid #3e5a85;
+
+    /* Bordas arredondadas */
     border-radius: 18px;
+
+    /* Espaçamento interno */
     padding: 35px;
+
+    /* Sombra */
     box-shadow: 0 0 25px rgba(0, 174, 255, 0.15);
+
+    /* Largura máxima */
     max-width: 900px;
+
+    /* Centraliza a caixa */
     margin: 40px auto;
+
+    /* Cor do texto */
     color: #03193a;
+
+    /* Tamanho da fonte */
     font-size: 20px;
+
+    /* Espaçamento entre linhas */
     line-height: 1.6;
 }
 
+
+/* Área do topo da página */
 .topo {
+
+    /* Ativa o Flexbox */
     display: flex;
+
+    /* Espaço entre logo e menu */
     justify-content: space-between;
+
+    /* Alinha os itens verticalmente */
     align-items: center;
-    background-color: #5c79a3;
+
+    /* Cor de fundo */
+    background-color: #748eb4;
+
+    /* Espaçamento interno */
     padding: 20px 50px;
 }
 
+
+/* Configuração da logo */
 .logo {
+
+    /* Define largura da imagem */
     width: 180px;
 }
 
+
+/* Links do menu de navegação */
 nav a {
+
+    /* Cor do texto */
     color: white;
+
+    /* Remove o sublinhado */
     text-decoration: none;
+
+    /* Espaçamento entre os links */
     margin-left: 30px;
 }
-
+ 

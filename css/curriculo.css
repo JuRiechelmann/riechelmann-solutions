@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-image: url("../img/corporativo.png");
+    background-image: url("/img/corporativo.png");
 }
 
 
@@ -64,5 +64,3 @@ input[type="file"] {
 .formulario button:hover {
     background-color: #0284c7; /* azul mais escuro no hover */
 }
-
-
